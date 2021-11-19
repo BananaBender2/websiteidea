@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    position: relative;
+}
+
+#logo {
+    position: fixed;
+    image-rendering: optimizeQuality; 
+
+    display: block; 
+    margin-top: 10px;
+    width: 22%; 
+
+    z-index: 10;
+}
+
+#redman {
+    image-rendering: optimizeQuality; 
+    padding-top: 436px;
+    padding-right: 20%;
+    padding-left: 4%;
+
+    transform: rotate(-36deg);
+    z-index: -1;
+}
+
+#blueman {
+    image-rendering: optimizeQuality; 
+
+    padding-left: 54%;
+    padding-bottom: 15%;
+    
+    transform: rotate(44deg);
+    z-index: -1;
+}
+
+#earth {
+    image-rendering: optimizeQuality; 
+    position: absolute;
+    right: -10%;
+    top: 400;
+    width: 115%;
+    z-index: -2;
+}
+
+#liveChat {
+    image-rendering: optimizeQuality;
+    width: 100%;
+    padding-left: 3.3%;
+
+    padding-top: 62%
+}
+
+.image-stack {
+    position: relative;
+    width: 100%;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    align-self: center;
+    padding: 0px 0px;
+
+    width: 269.6px;
+    height: 160px;
+}
+  
+.navbar a.active {
+    background-color: rgb(165, 52, 52);
+}
+
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+#group_b {
+    image-rendering: optimizeQuality;
+    display: block; 
+    width: 200px;
+    
+    padding-left: 30px;
+    padding-top: 20px;
+
+    z-index: 10;
+
+}
+
+#globe_b {
+    image-rendering: optimizeQuality;
+    display: block; 
+    width: 155px;
+    
+    padding-left: 50px;
+    padding-top: 0px;
+
+    z-index: 10;
+}
+
+#chat_b {
+    image-rendering: optimizeQuality;
+    display: block; 
+    width: 150px;
+    
+    padding-left: 55px;
+    padding-top: 10px;
+
+    z-index: 10;
+}
+
+#settings_b {
+    image-rendering: optimizeQuality;
+    display: block; 
+    width: 140px;
+    
+    padding-left: 59px;
+    padding-top: 2px;
+
+    z-index: 10;
+}
+
+#chat-area {
+    width: 10000px;
+    height: 10000px;
+
+    padding-top: 1000px;
+    padding-left: 500px;
+
+}
